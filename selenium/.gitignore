@@ -1,0 +1,92 @@
+~*
+*~
+
+*.mypy_cache
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+local_settings.py
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+logs/*
+env/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+package-lock.json
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.pytest_cache/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# pycharm configuration files
+.idea/
+
+# sublime-text project files
+*.sublime-project
+*.sublime-workspace
+
+# osx stuff
+.DS_Store
+
+###
+# project specific
+###
+
+# ignore the virtual environment, since it should be recreated locally
+venv/
+
+# ignore any logs that are created locally, but keep the readme anchor
+web/log/*
+!log/readme.txt
+
+# ignore ipython notebook checkpoints
+.ipynb
+.ipynb_checkpoints
+
+# Dependency directories
+node_modules
+
+# celery logs
+celerybeat.pid
+celerybeat-schedule
+celerybeat-schedule.log
+
+# Visual Studio Code
+.vscode
+
+#Environment variables for local development
+.env
+reports/
